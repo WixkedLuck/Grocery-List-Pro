@@ -23,8 +23,27 @@ div{
 }
 .row{
     background-color: #3B3B40;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 20px 20px 15px;
 
    
 }
-
+#Addhere{
+    margin-top: 40px;
+}
+.Filter{
+   text-align: center;
+    background-color:#72727394 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+#AddProduct{
+   margin: 5px;
+  float:right;
+  text-align: center;
+   width: 48%;
+   border-radius: 15px;
+   background-color: #D9D9D9;
+  
+}
