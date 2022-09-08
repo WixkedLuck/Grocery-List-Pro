@@ -30,7 +30,9 @@ div{
 }
 #Addhere{
     margin-top: 40px;
+    font-size: 36px;
 }
+
 .Filter{
    text-align: center;
     background-color:#72727394 ;
@@ -46,4 +48,29 @@ div{
    border-radius: 15px;
    background-color: #D9D9D9;
   
+}
+#AddProduct:hover{
+    background-color:#BFBFBF;
+}
+
+
+.LightMode{
+    background-color: whitesmoke !important;
+    color: black;
+}
+.DarkMode{
+    background-color: black !important;
+    color: white;
+}
+
+.modal-footer{
+    background-color:#72727394 !important ;
+}
+.Timer{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    width: fit-content;
+    margin: auto;
+    color: whitesmoke;
+    background-color:#3B3B40;
 }
