@@ -31,7 +31,7 @@ The purpose of this project is to show off my talents and skills to employers in
 
 
 # Deployed Site
-https://wixkedluck.github.io/PortfolioV2/
+https://wixkedluck.github.io/Grocery-List-Pro/
 
 
 
