@@ -40,7 +40,7 @@ div{
     padding-bottom: 20px;
     border-bottom: 5px solid black;
 }
-#AddProduct{
+.AddProduct{
    margin: 5px;
   float:right;
   text-align: center;

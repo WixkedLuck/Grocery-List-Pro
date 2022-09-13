@@ -11,8 +11,10 @@ var Add = $('#Addhere');
 var ClearHistory=document.querySelector('#History');
 var trial = 0;
 var trial2=0;
+var Incount =document.getElementById('Incomp');
 var AllCount = document.getElementById('Count');
 var All= 0;
+var Incomplete = 0; 
 var flip = true;
 
 var Historyc=$(JSON.parse(localStorage.getItem("list")));
@@ -32,10 +34,14 @@ function CreateList(){
     for(var i = 0; i <Historyc.length; i++){
     var List = $('<li>');
     List.text(Historyc[i]);
-    List.attr('id', 'AddProduct');
+    List.attr('id', 'Productnum');
+    List.attr('class', 'AddProduct');
+
     Add.append(List);
-    All=Historyc.length;
+    
+    Incomplete=Historyc.length;
     AllCount.innerHTML = All;
+    Incount.innerHTML =Incomplete;
     }
   
 }
@@ -90,6 +96,17 @@ Pointer.addEventListener('click', function (event) {
 
 
 
+})
+$('li#Productnum').click(function(event){
+   
+    event.target.style='text-decoration: line-through'; 
+    Incomplete=Incomplete-1;
+  
+    All=All+1;
+    Incount.innerHTML =Incomplete;
+    AllCount.innerHTML = All;
+
+    
 })
 
 
